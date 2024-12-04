@@ -1,0 +1,23 @@
+.statistics {
+    text-align: left;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .progress {
+    height: 20px;
+    background-color: #007bff;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px 0 0 10px;
+  }
+  
