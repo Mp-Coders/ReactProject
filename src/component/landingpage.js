@@ -1,17 +1,17 @@
 import React from 'react';
-import '../styles/LandingPage.css'; // Import CSS file
-function LandingPage() {
-return (
-<div className="landing-container">
-<h1 className="landing-title">Welcome to Our Website</h1>
-<p className="landing-subtitle">
-Discover amazing things and explore our world of possibilities.
-We're here to help you achieve your goals and dreams.
-</p>
-<button className="landing-button">
-Learn More
-</button>
-</div>
-);
-}
+import '../styles/LandingPage.css';
+
+const LandingPage = () => {
+    return (
+        <section className="landing-page">
+            <div className="container">
+                <h2>Welcome to the Taste of Pakistan</h2>
+                <p>
+                    Explore authentic Pakistani recipes, traditional dishes, and flavorful spices that bring life to every meal.
+                </p>
+            </div>
+        </section>
+    );
+};
+
 export default LandingPage;
