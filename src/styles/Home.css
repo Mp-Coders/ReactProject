@@ -1,0 +1,85 @@
+/* Home Page Container */
+.home-container {
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+}
+
+/* Heading Styling */
+.home-heading {
+    font-size: 3rem;
+    color: #212529;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Description Text */
+.home-description {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin: 15px 0 40px;
+    line-height: 1.6;
+}
+
+/* Product List Styling */
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Product Item Link Styling */
+.product-item {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #f1f8ff;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+}
+
+/* Product Item Hover Effects */
+.product-item:hover {
+    text-decoration: none;
+    color: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.2);
+}
+
+/* Footer Section */
+.home-footer {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* Cart Link Styling */
+.home-cart-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #f1f8ff;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home-cart-link:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2);
+}

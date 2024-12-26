@@ -1,0 +1,23 @@
+.product-detail-container {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .product-name {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .product-description {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  

@@ -1,0 +1,16 @@
+.user-profile-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .user-profile-container h1 {
+    font-size: 2rem;
+    color: #343a40;
+  }
+  
+  .user-profile-container p {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
